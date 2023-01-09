@@ -1,5 +1,8 @@
 * {
-    background-color: #7f8c9a;
+    background: #0F2027;  
+/* background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  
+background: linear-gradient(to right, #2C5364, #203A43, #0F2027);  */
+
 }
 
 .teamBar {
@@ -10,17 +13,23 @@
     font-size: 30pt;
     text-align: center;
     padding: 50px 0;
+    text-shadow: none;
+    
 }
 
 .cardBox {
     display: flex;
     justify-content: center;
+    padding-top: 50px;
 }
 
 .cardContainer {
+  background-image: linear-gradient(to left, blue, red);
+    color: rgb(194, 29, 29);
     display: flex;
     flex-wrap: wrap;
     margin: 0 4em;
+    padding-top: 40px;
 }
 
 .card {
@@ -40,22 +49,38 @@
 }
 
 .cardBody {
-    background-color: whitesmoke;
+    color: black;
+    background-color: rgb(200, 200, 200);
     padding: 2em 1em;
 }
 
 .employeeName {
     font-size: 26pt;
     margin: 0.5em -2em;
+    text-align: left;
+
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
 }
+
 
 .employeeRole {
     font-size: 20pt;
-    margin: 0 0 0.5em -2.5em;
+    margin: -0.5em -0.5em 0.5em -3.5em;
+    text-align: center;
+
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+
+
 }
 
 .employeeId {
-    background-color: white;
+    background-color: rgb(243, 95, 95);
     margin: 0.5em 0.5em 0 0.5em;
     border: 1px solid lightgrey;
     font-size: 14pt;
@@ -63,7 +88,7 @@
 }
 
 .employeeEmail {
-    background-color: white;
+    background-color: rgb(243, 95, 95);
     margin: 0 0.5em 0 0.5em;
     border: 1px solid lightgray;
     font-size: 14pt;
@@ -71,9 +96,15 @@
 }
 
 .employeeSpecific {
-    background-color: white;
+    background-color: rgb(243, 95, 95);
     margin: 0 0.5em 0.5em 0.5em;
     border: 1px solid lightgrey;
     font-size: 14pt;
     padding: 0.2em 1em;
 }
+
+.teamBar:hover {
+    color: #9518fc;
+    transition: all 0.3s ease;
+}
+
