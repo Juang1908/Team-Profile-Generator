@@ -5,7 +5,7 @@ background: linear-gradient(to right, #2C5364, #203A43, #0F2027);  */
 
 }
 
-.teamBar {
+.team__header {
     color: rgb(8, 8, 8);
     background: #b92b27;  
     background: -webkit-linear-gradient(to right, #1565C0, #b92b27);
@@ -17,7 +17,7 @@ background: linear-gradient(to right, #2C5364, #203A43, #0F2027);  */
     
 }
 
-.cardBox {
+.card__container {
     display: flex;
     justify-content: center;
     padding-top: 50px;
@@ -103,7 +103,7 @@ background: linear-gradient(to right, #2C5364, #203A43, #0F2027);  */
     padding: 0.2em 1em;
 }
 
-.teamBar:hover {
+.team__header:hover {
     color: #9518fc;
     transition: all 0.3s ease;
 }

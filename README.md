@@ -1,8 +1,8 @@
-# Team-Profile-Generator
+# Team-Profile-Generator:
 
 ![mit](https://img.shields.io/badge/license-MIT-blue)
 
-## Table of Contents
+## Table of Contents:
 
 [Description](#description)
 [Installation](#installation)
@@ -12,13 +12,13 @@
 [Github](#github)
 [License](#license)
 
-### Description
+### Description:
 
 AS A manager
 I WANT to generate a webpage that displays my team's basic info
 SO THAT I have quick access to their emails and GitHub profiles
 
-### Installation
+### Installation:
 
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 
@@ -34,11 +34,11 @@ SO THAT I have quick access to their emails and GitHub profiles
 
 ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 
-### Test
+### Test:
 
 Open VS Code-Navigate _test_ file to run test and then index.js file to start building HTML application by running terminal and typing [ node index.js] in the integrated terminal. Then, fill all required information.
 
-### Usage
+### Usage:
 
 Once installation is complete, you can generate your HTML FILE.
 
@@ -53,13 +53,13 @@ If you have any questions contact me on GitHub or my personal E-mail above.
 juang1908
 https://github.com/Juang1908
 
-### Walkthrough Video and Screenshot
+### Walkthrough Video and Screenshot:
 
 [VIDEO DEMO](imgvid/Team-Profile-Generator.webm)
 ![HTML-SCREENSHOT](imgvid/html-screenshot.jpg)
 ![TEST-SCREENSHOT](imgvid/test-Screenshot.jpg)
 
-### License
+### License:
 
     For more information about this license please visit
     [MIT License](https://opensource.org/)
