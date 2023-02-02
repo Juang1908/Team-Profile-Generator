@@ -54,6 +54,7 @@ juang1908
 https://github.com/Juang1908
 
 ### Walkthrough Video and Screenshot:
+[Team-Profile-Generator.webm](https://user-images.githubusercontent.com/112872430/216464948-f04e5113-d302-4242-b08f-4e2498ff43cd.webm)
 
 [VIDEO DEMO](imgvid/Team-Profile-Generator.webm)
 ![HTML-SCREENSHOT](imgvid/html-screenshot.jpg)
