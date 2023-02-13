@@ -1,12 +1,13 @@
+// Imports all files to generate a teamm
 const inquirer = require('inquirer');
 const fs = require('fs');
 const createTeamPage = require('./lib/teamPageGenerator');
 const Manager = require('./lib/Manager');
 const Engineer = require('./lib/Engineer');
 const Intern = require('./lib/Intern');
-
+// team array
 const team = []
-
+// to create a Manager
 async function buildManager() {
     const managerObject = await inquirer.prompt([
         {
@@ -61,7 +62,7 @@ async function buildManager() {
 
     nextEmployee();
 }
-
+// to create new emplyee depending on response IF Engineer, Intern, else Manager
 async function nextEmployee() {
     const newEmployee = await inquirer.prompt ([
         {
@@ -83,7 +84,7 @@ async function nextEmployee() {
         finishTeam()
     }
 }
-
+// Createa the Engineer 
 async function buildEngineer() {
     const engineerObject = await inquirer.prompt ([
         {
@@ -137,7 +138,7 @@ async function buildEngineer() {
 
     nextEmployee();
 }
-
+// Created an Intern
 async function buildIntern() {
     const internObject = await inquirer.prompt([
         {
@@ -204,7 +205,7 @@ function finishTeam() {
     writeFile(fileName, createTeamHtml);
 
 }
-
+// Writes file and generates
 function writeFile(fileName, data) {
     fs.writeFile(`./dist/${fileName}.html`, data, (err) => {
         if(err){
